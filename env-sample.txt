@@ -1,0 +1,14 @@
+AZURE_SEARCH_SERVICE_ENDPOINT=https://your-search-service.search.windows.net
+AZURE_SEARCH_ADMIN_KEY= your-search-key
+BLOB_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=your-account;EndpointSuffix=core.windows.net"
+SEARCH_BLOB_DATASOURCE_CONNECTION_STRING="ResourceId=/subscriptions/your-subscription-id/resourceGroups/your-rg/providers/Microsoft.Storage/storageAccounts/your-account"
+BLOB_CONTAINER_NAME=index-and-chat
+AZURE_OPENAI_ENDPOINT=https://your-openai-service.openai.azure.com
+AZURE_OPENAI_KEY=your-aoai-key
+AZURE_OPENAI_API_VERSION=2025-03-01-preview
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-large
+AZURE_OPENAI_EMBEDDING_MODEL_NAME=text-embedding-3-large
+AZURE_OPENAI_EMBEDDING_DIMENSIONS=3072
+AZURE_OPENAI_CHAT_DEPLOYMENT=gpt-4o
+AZURE_AI_SERVICES_ENDPOINT=https://your-ai-service.cognitiveservices.azure.com/
+AZURE_AI_SERVICES_KEY=your-aiservices-key
