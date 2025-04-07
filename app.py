@@ -147,19 +147,12 @@ with gr.Blocks(css=CSS) as gr_app:  # Apply style to the container
     gr.Markdown("<br>")
 
     with gr.Row():
-
        gr.ChatInterface(
-
         chat,
-
         type="messages",
-
         theme="ocean",
-
         save_history=True,
-       
-        css=CSS  # Apply CSS to the ChatInterface
-
+        css=CSS  # Apply CSS to the ChatInterface\
     )
 
 
