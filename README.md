@@ -59,6 +59,18 @@ pip freeze > requirements.txt
 
 [Image4](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img4.png)
 
+- After the deployment is finished, go to the Azure portal, search for the Web Service, select the Settings > Environment Variables and input environment variables. Type the secret name and value as they appear in your local settings in VSCode.
+
+- To finish, go to Settings > Configuration > Startup Command and type in this command
+
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000
+
+or 
+
+python -m gunicorn app:app -k uvicorn.workers.UvicornWorker
+```
+
 ## Documentation
 
 - [Azure AI Search Documentation](https://learn.microsoft.com/azure/search/)
