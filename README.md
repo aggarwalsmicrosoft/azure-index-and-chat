@@ -57,7 +57,7 @@ pip freeze > requirements.txt
 
 - Now go to Azure extension and your Web App resource that you made earlier > Right Click > Deploy to Web App
 
-! [](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img4.png)
+![ ](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img4.png)
 
 - After the deployment is finished, go to the Azure portal, search for the Web Service, select the Settings > Environment Variables and input environment variables. Type the secret name and value as they appear in your local settings in VSCode.
 
