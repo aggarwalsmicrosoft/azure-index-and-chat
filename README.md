@@ -1,8 +1,10 @@
-# Build RAG in AI Search
+# Build RAG with Azure AI Search & Azure OpenAI
 
-This repository provides a way to build [RAG application](https://learn.microsoft.com/azure/search/tutorial-rag-build-solution) on your data powered by Azure AI Search & Azure OpenAI
+This repository provides a way to build [RAG solution](https://learn.microsoft.com/azure/search/tutorial-rag-build-solution) on your data powered by Azure AI Search & Azure OpenAI
  
+### Architecture Diagram
 
+![RAG Architecture](azure-index-and-chat\appcomponents.png)
 
 ## Documentation
 
