@@ -6,13 +6,13 @@ This repository provides a way to build [RAG solution](https://learn.microsoft.c
 
 ![RAG Architecture](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Architecture.png)
 
-## Steps to install
+## Steps to install the App
 
 Step 1 : Run through the python notebook "index-and-chat.ipynb" to set up the Azure Blob Storage , Azure AI Search , Azure OpenAI & Azure AI Services multiservices account
 
 Step 2 : Set up the Gradio App with Python FastAPI to deploy to Azure App service
 
-## Running App locally
+### Running App locally
 
 - Make a new folder called "Deploy" and open it in VSCode. Paste the .env , app.py and requirements.txt files in this folder.
 
@@ -71,7 +71,7 @@ pip freeze > requirements.txt
 ![ ](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img6.png)
 
 
-## Deploy to Azure
+### Deploy to Azure
 - In the Azure portal , create an [Azure App service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-arm-template?pivots=platform-linux) resource
 
   - Sign in to the Azure portal, type app services in the search bar at the top of the portal. Choose the option called App Services under the Services heading on the menu that shows up below the search bar.
