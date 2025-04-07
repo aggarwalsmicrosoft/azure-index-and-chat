@@ -20,3 +20,4 @@ This repository provides a way to build [RAG application](https://learn.microsof
 
 ## Reference
 - [Azure Search Vector Samples](https://github.com/Azure/azure-search-vector-samples/tree/main)
+- [Azure Search Vector Samples-Python](https://github.com/Azure/azure-search-vector-samples/tree/main/demo-python/code/indexers)
