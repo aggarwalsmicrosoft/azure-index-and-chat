@@ -12,6 +12,62 @@ Step 1 : Run through the python notebook "index-and-chat.ipynb" to set up the Az
 
 Step 2 : Set up the Gradio App with Python FastAPI to deploy to Azure App service
 
+## Run the app locally
+
+- Make a new folder called "Deploy" and open it in VSCode. Paste the .env , app.py and requirements.txt files in this folder.
+
+- Create a virtual environment in Visual Studio Code - Create a virtual environment so that you can install the dependencies in isolation.
+
+  - In Visual Studio Code, open the folder containing index-and-chat.ipynb
+  - Press Ctrl-shift-P to open the command palette, search for "Python: Create Environment", and then select `Venv` to create a virtual environment in the current workspace.
+  - Select requirements.txt for the dependencies.
+
+   It takes several minutes to create the environment. When the environment is ready, continue to the next step. 
+
+- Activate the virtual environment by going to the project folder, and running this command
+
+```bash
+cd Deploy
+Venv\Scripts\activate
+```
+
+- Install the required libraries and freeze the requirements.txt file
+
+```bash
+pip install virtualenv
+pip install gradio
+pip install fastapi
+
+pip freeze > requirements.txt
+```
+- In your .vscode folder, put the launch.json file that has this content:
+
+```bash
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python Debugger: FastAPI",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "app:app",
+                "--reload"
+            ],
+            "jinja": true
+        }
+    ]
+}
+```
+- This will enable you to launch your local app by using the Run > Start Debugging
+
+![ ](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img5.png)
+
+
+## Deploy to Azure
 - In the Azure portal , create an [Azure App service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-arm-template?pivots=platform-linux) resource
 
   - Sign in to the Azure portal, type app services in the search bar at the top of the portal. Choose the option called App Services under the Services heading on the menu that shows up below the search bar.
@@ -41,9 +97,16 @@ Step 2 : Set up the Gradio App with Python FastAPI to deploy to Azure App servic
 
    It takes several minutes to create the environment. When the environment is ready, continue to the next step.
 
-- Install the required python packages and freeze the requirements.txt file
+- Activate the virtual environment by going to the project folder, and running this command
 
 ```bash
+cd Deploy
+Venv\Scripts\activate
+```
+- Install the required libraries and freeze the requirements.txt file
+
+```bash
+pip install virtualenv
 pip install gradio
 pip install fastapi
 pip install gunicorn 
