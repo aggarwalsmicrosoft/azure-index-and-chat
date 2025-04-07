@@ -6,7 +6,7 @@ This repository provides a way to build [RAG solution](https://learn.microsoft.c
 
 ![RAG Architecture](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Architecture.png)
 
-# Steps to install the App
+# Steps to Run & Deploy the App
 
 ## **Step 1 :** 
 Run through the python notebook "index-and-chat.ipynb" to set up the Azure Blob Storage , Azure AI Search , Azure OpenAI & Azure AI Services multiservices account
