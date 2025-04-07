@@ -66,6 +66,9 @@ pip freeze > requirements.txt
 
 ![ ](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img5.png)
 
+- You can access your local app on http://127.0.0.1:8000
+
+![ ](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img6.png)
 
 ## Deploy to Azure
 - In the Azure portal , create an [Azure App service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-arm-template?pivots=platform-linux) resource
