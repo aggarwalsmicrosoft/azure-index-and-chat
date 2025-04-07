@@ -57,7 +57,7 @@ pip freeze > requirements.txt
 
 - Now go to Azure extension and your Web App resource that you made earlier > Right Click > Deploy to Web App
 
-[Image4](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img3.png)
+[Image4](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img4.png)
 
 ## Documentation
 
