@@ -27,9 +27,9 @@ Step 2 : Set up the Gradio App with Python FastAPI to deploy to Azure App servic
 
     App Service Plan → Under Pricing plan, select Explore pricing plans to select a different App Service plan.
 
-    [](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img1.png)
+    [Image1](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img1.png)
 
-    [](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img2.png)
+    [Image2](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img2.png)
 
 - Make a new folder called "Deploy" and open it in VSCode. Paste the .env , app.py and requirements.txt files in this folder.
 
@@ -53,11 +53,11 @@ pip freeze > requirements.txt
 
 - Now in VSCode sign to Azure using the command palette (Ctrl + Shift + P)
 
-[](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img3.png)
+[Image3](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img3.png)
 
 - Now go to Azure extension and your Web App resource that you made earlier > Right Click > Deploy to Web App
 
-
+[Image4](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img3.png)
 
 ## Documentation
 
