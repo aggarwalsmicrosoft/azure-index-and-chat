@@ -23,3 +23,5 @@ This repository provides a way to build [RAG solution](https://learn.microsoft.c
 ## Reference
 - [Azure Search Vector Samples](https://github.com/Azure/azure-search-vector-samples/tree/main)
 - [Azure Search Vector Samples-Python](https://github.com/Azure/azure-search-vector-samples/tree/main/demo-python/code/indexers) by [Matt Gotteiner](https://github.com/mattgotteiner) 
+- [Azure Search OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo)
+- [Retrieval Augmented Generation (RAG)](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
