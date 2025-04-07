@@ -1,6 +1,7 @@
 # Build RAG in AI Search
 
-This repository provides a way to build RAG application on your data powered by Azure AI Search & Azure OpenAI
+This repository provides a way to build [RAG application](https://learn.microsoft.com/azure/search/tutorial-rag-build-solution) on your data powered by Azure AI Search & Azure OpenAI
+ 
 
 
 ## Documentation
@@ -18,4 +19,4 @@ This repository provides a way to build RAG application on your data powered by 
 - [Azure OpenAI Service Documentation](https://learn.microsoft.com/azure/cognitive-services/openai/)
 
 ## Reference
--[Azure Search Vector Samples](https://github.com/Azure/azure-search-vector-samples/tree/main)
+- [Azure Search Vector Samples](https://github.com/Azure/azure-search-vector-samples/tree/main)
