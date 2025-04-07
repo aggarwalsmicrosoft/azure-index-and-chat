@@ -12,7 +12,7 @@ Step 1 : Run through the python notebook "index-and-chat.ipynb" to set up the Az
 
 Step 2 : Set up the Gradio App with Python FastAPI to deploy to Azure App service
 
-## Run the app locally
+## Running App locally
 
 - Make a new folder called "Deploy" and open it in VSCode. Paste the .env , app.py and requirements.txt files in this folder.
 
@@ -69,6 +69,7 @@ pip freeze > requirements.txt
 - You can access your local app on http://127.0.0.1:8000
 
 ![ ](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Images/Img6.png)
+
 
 ## Deploy to Azure
 - In the Azure portal , create an [Azure App service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-arm-template?pivots=platform-linux) resource
