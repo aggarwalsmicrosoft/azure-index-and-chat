@@ -4,7 +4,7 @@ This repository provides a way to build [RAG solution](https://learn.microsoft.c
  
 ### Architecture Diagram
 
-![RAG Architecture](azure-index-and-chat\appcomponents.png)
+![RAG Architecture](https://github.com/aggarwalsmicrosoft/azure-index-and-chat/blob/main/Architecture.png)
 
 ## Documentation
 
